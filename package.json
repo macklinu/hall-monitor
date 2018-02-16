@@ -1,0 +1,9 @@
+{
+  "name": "hall-monitor",
+  "version": "0.0.0-semantically-released",
+  "description": "A visual ESLint rule test tool",
+  "main": "dist/index.js",
+  "repository": "https://github.com/macklinu/hall-monitor",
+  "author": "Macklin Underdown <macklinu@gmail.com>",
+  "license": "MIT"
+}
