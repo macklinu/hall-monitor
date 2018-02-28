@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`options invalid badFunctionName() 1`] = `
+"badFunctionName()
+ ^^^^^^^^^^^^^^^^^ [No call expressions named 'badFunctionName']"
+`;
+
+exports[`options valid [no code] 1`] = `""`;

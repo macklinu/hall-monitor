@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`multiline invalid const myFunction = () => {
+  const a = 1
+  const b = 2
+  const c = 3
+  return a + b + c
+} 1`] = `
+"const myFunction = () => {
+                    ^^^^^^^ [No arrow functions]
+  const a = 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^ [No arrow functions]
+  const b = 2
+^^^^^^^^^^^^^^^^^^^^^^^^^^^ [No arrow functions]
+  const c = 3
+^^^^^^^^^^^^^^^^^^^^^^^^^^^ [No arrow functions]
+  return a + b + c
+^^^^^^^^^^^^^^^^^^^^^^^^^^^ [No arrow functions]
+}
+^^                          [No arrow functions]"
+`;
+
+exports[`multiline valid function foo() {} 1`] = `"function foo() {}"`;

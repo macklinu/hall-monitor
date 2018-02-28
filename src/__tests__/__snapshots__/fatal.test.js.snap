@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fatal invalid const fn = () => {} 1`] = `[Error: Parsing error: Unexpected token fn]`;
+
+exports[`fatal valid var a 1`] = `"var a"`;

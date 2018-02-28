@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`same-line-multiple-errors invalid var a; var b; var c;
+var d; 1`] = `
+"var a; var b; var c;
+               ^^^^^^ [No vars allowed]
+ ^^^^^^ [No vars allowed]
+        ^^^^^^ [No vars allowed]
+ ^^^^^^ [No vars allowed]
+var d;"
+`;
+
+exports[`same-line-multiple-errors invalid var a; var b; var c; 1`] = `
+"var a; var b; var c;
+               ^^^^^^ [No vars allowed]
+        ^^^^^^ [No vars allowed]
+ ^^^^^^ [No vars allowed]"
+`;
+
+exports[`same-line-multiple-errors valid const a = 1 1`] = `"const a = 1"`;

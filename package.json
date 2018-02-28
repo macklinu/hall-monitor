@@ -5,5 +5,19 @@
   "main": "dist/index.js",
   "repository": "https://github.com/macklinu/hall-monitor",
   "author": "Macklin Underdown <macklinu@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "commitmsg": "mdu-scripts commitmsg",
+    "precommit": "mdu-scripts precommit",
+    "test": "mdu-scripts test",
+    "lint": "mdu-scripts lint"
+  },
+  "dependencies": {
+    "@sindresorhus/is": "^0.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "jest-runner-eslint": "^0.4.0",
+    "mdu-scripts": "^2.5.1"
+  }
 }
